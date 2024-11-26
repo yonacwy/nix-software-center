@@ -114,6 +114,10 @@ RUST_LOG=nix_software_center=trace nix-software-center
   <img src="data/screenshots/searchpage-dark.png#gh-dark-mode-only"/> 
 </p>
 
+## "No Connection Fix" Single run on an flakes enabled system:
+```bash
+nix run github:yonacwy/nix-software-center/
+
 ## Licenses
 
 Some icons in [data/icons](data/icons/) contains assets from the [NixOS logo](https://github.com/NixOS/nixos-artwork/tree/master/logo) and are licensed under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/).
