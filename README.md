@@ -100,7 +100,7 @@ RUST_LOG=nix_software_center=trace nix-software-center
 
 ## "No Connection Fix" Single run on an flakes enabled system:
 ```bash
-nix run github:yonacwy/nix-software-center/
+nix run github:yonacwy/nix-software-center
 ```
 
 
