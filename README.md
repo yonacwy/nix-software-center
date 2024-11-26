@@ -96,6 +96,10 @@ nix --extra-experimental-features "nix-command flakes" run github:snowfallorg/ni
 
 ```bash
 RUST_LOG=nix_software_center=trace nix-software-center
+
+## "No Connection Fix" Single run on an flakes enabled system:
+```bash
+nix run github:yonacwy/nix-software-center/
 ```
 
 ## Screenshots
@@ -114,9 +118,7 @@ RUST_LOG=nix_software_center=trace nix-software-center
   <img src="data/screenshots/searchpage-dark.png#gh-dark-mode-only"/> 
 </p>
 
-## "No Connection Fix" Single run on an flakes enabled system:
-```bash
-nix run github:yonacwy/nix-software-center/
+
 
 ## Licenses
 
